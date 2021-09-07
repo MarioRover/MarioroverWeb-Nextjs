@@ -24,28 +24,28 @@ const Home: NextPage = () => {
         <div className={styles.social_contaienr}>
           <a href="https://github.com/MarioRover" target="_blank">
             <Image
-              src={require("../public/images/Icon/github.svg")}
+              src={require("../public/images/icon/github.svg")}
               width="50"
               height="50"
             />
           </a>
           <a href="https://twitter.com/HusseinAkbariiim" target="_blank">
             <Image
-              src={require("../public/images/Icon/twitter.svg")}
+              src={require("../public/images/icon/twitter.svg")}
               width="50"
               height="50"
             />
           </a>
           <a href="https://www.instagram.com/iamhosseinakbari/" target="_blank">
             <Image
-              src={require("../public/images/Icon/instagram.svg")}
+              src={require("../public/images/icon/instagram.svg")}
               width="50"
               height="50"
             />
           </a>
           <a href="https://www.linkedin.com/in/mariorover/" target="_blank">
             <Image
-              src={require("../public/images/Icon/linkedin.svg")}
+              src={require("../public/images/icon/linkedin.svg")}
               width="50"
               height="50"
             />
