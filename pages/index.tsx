@@ -22,32 +22,52 @@ const Home: NextPage = () => {
         <p>I'll put my information here, very soon!</p>
         <p>But you can see my social pages from bottom.</p>
         <div className={styles.social_contaienr}>
-          <a href="https://github.com/MarioRover" target="_blank">
+          <a
+            href="https://github.com/MarioRover"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src={require("../public/images/icons/github.svg")}
               width="50"
               height="50"
+              alt="Github"
             />
           </a>
-          <a href="https://twitter.com/HusseinAkbariiim" target="_blank">
+          <a
+            href="https://twitter.com/HusseinAkbariiim"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src={require("../public/images/icons/twitter.svg")}
               width="50"
               height="50"
+              alt="Twitter"
             />
           </a>
-          <a href="https://www.instagram.com/iamhosseinakbari/" target="_blank">
+          <a
+            href="https://www.instagram.com/iamhosseinakbari/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src={require("../public/images/icons/instagram.svg")}
               width="50"
               height="50"
+              alt="Instagram"
             />
           </a>
-          <a href="https://www.linkedin.com/in/mariorover/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/mariorover/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src={require("../public/images/icons/linkedin.svg")}
               width="50"
               height="50"
+              alt="Linkedin"
             />
           </a>
         </div>
